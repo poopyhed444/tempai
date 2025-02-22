@@ -219,7 +219,7 @@ def main():
             st.subheader("Temperature Risk Analysis")
             temp_threshold = st.number_input("Temperature Threshold (°C)", 
                                           min_value=0.0,
-                                          max_value=200.0,
+                                          max_value=500.0,
                                           value=100.0,
                                           step=1.0)
             
